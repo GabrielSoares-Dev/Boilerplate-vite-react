@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+  boilerplate-vite-react:
+    container_name: boilerplate-vite-react
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+     - .:/app
+     - boilerplate-vite-react-volume:/app/node_modules
+    ports:
+      - 5173:5173
+    stdin_open: true
+    tty: true
+
+volumes:
+   boilerplate-vite-react-volume:
+
+
