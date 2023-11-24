@@ -67,7 +67,9 @@
   },
   "include": [
     "src",
-    "tests"
+    "tests",
+    "cypress"
+
   ],
   "references": [
     {

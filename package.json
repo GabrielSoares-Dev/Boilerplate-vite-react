@@ -12,6 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --collectCoverage",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "server:up": "docker-compose -f docker-compose-dev.yml up -d",
     "prepare": "husky install",
     "commit": "cz"
@@ -41,6 +43,7 @@
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",
     "commitizen": "^4.3.0",
+    "cypress": "^13.6.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.54.0",
     "eslint-plugin-react-hooks": "^4.6.0",

@@ -13,12 +13,15 @@ export default {
     '!**/node_modules/**',
     '!**/vite.config.ts',
     '!**/jest.config.ts',
+    '!**/cypress.config.ts',
     '!**/main.tsx',
     '!**/App.tsx',
     '!**/App.tsx',
     '!**/vite-env.d.ts',
     '!**/index.ts',
     '!**/routes/**',
+    '!**/cypress/**',
+    '!**/tests/**',
   ],
 
   moduleNameMapper: {
