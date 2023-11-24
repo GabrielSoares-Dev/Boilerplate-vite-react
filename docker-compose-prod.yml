@@ -4,6 +4,6 @@ services:
     container_name: boilerplate-vite-react
     image: gabrielsoaresdev/boilerplate-vite-react:latest
     ports:
-      - 4000:80
+      - 4040:80
 
 
