@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
-import App from '../../src/App'
+import { Home } from '@pages'
 
 describe('example', () => {
   test('example', () => {
-    const { getByText } = render(<App />)
+    const { getByText } = render(<Home />)
 
     const test = getByText('boilerplate-vite-react')
 
