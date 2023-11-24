@@ -12,6 +12,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --collectCoverage",
+    "test:coverage:silent": "jest --collectCoverage --silent",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "server:up": "docker-compose -f docker-compose-dev.yml up -d",

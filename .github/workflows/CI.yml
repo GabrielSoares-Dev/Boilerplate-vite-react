@@ -1,0 +1,36 @@
+name: CI
+on:
+  push:
+   branches:
+      - production
+      - development
+      - master
+  pull_request:
+    branches:
+      - production
+      - development
+      - master
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Checkout do repositorio
+         uses: actions/checkout@v1
+       - name: Criando env
+         run: |
+          touch .env
+          cat .env.example >> .env
+       - name: Setup Node
+         uses: actions/setup-node@v1
+         with:
+           node-version: "18.x" 
+       - name: Install dependencies
+         run: npm i
+       - name: Install Production Dependencies
+         run: npm ci
+       - name: Lint
+         run: npm run lint
+       - name: Checking types
+         run: npm run typecheck
+       - name: Running tests
+         run: npm run test:coverage:silent
