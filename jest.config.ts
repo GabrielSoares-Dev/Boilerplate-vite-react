@@ -33,7 +33,7 @@ export default {
     '^@middlewares/$': '<rootDir>/src/middlewares',
     '^@constants$': '<rootDir>/src/constants',
     '^@hooks$': '<rootDir>/src/hooks',
-    '^@store/$': '<rootDir>/src/store',
+    '^@store$': '<rootDir>/src/store',
     '^@services$': '<rootDir>/src/services',
     '^@utils$': '<rootDir>/src/utils',
     '^@providers$': '<rootDir>/src/providers',
