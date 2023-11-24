@@ -28,7 +28,7 @@ Este boilerplate oferece uma base sólida para o desenvolvimento de aplicações
 2. Instale o docker e extensão dev container no vscode
 3. Rode o comando: `docker-compose -f docker-compose-dev.yml up -d`
 4. Entre no container e rode: `npm i`
-5. Entre no container e rode: `npm run dev`
+5. Inicialize o servidor: `npm run dev`
 
 ## Scripts
 
