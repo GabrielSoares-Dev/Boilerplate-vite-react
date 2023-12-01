@@ -54,8 +54,8 @@
       "@hooks": [
         "./src/hooks"
       ],
-      "@middlewares": [
-        "./src/middlewares"
+      "@guards": [
+        "./src/guards"
       ],
       "@constants": [
         "./src/constants"

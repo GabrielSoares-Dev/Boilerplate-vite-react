@@ -1,12 +1,11 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Home } from '@pages'
+import { BrowserRouter } from 'react-router-dom'
+import { Private, Public } from '@routes'
 
 export function Main() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" Component={Home} />
-      </Routes>
+      <Public />
+      <Private />
     </BrowserRouter>
   )
 }

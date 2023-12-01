@@ -26,11 +26,11 @@ export default {
   ],
 
   moduleNameMapper: {
-    '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/test/__mocks__/fileMock.js',
-    '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
+      'identity-obj-proxy',
     '^@components$': '<rootDir>/src/components',
     '^@functions$': '<rootDir>/src/functions',
-    '^@middlewares/$': '<rootDir>/src/middlewares',
+    '^@guards$': '<rootDir>/src/guards',
     '^@constants$': '<rootDir>/src/constants',
     '^@hooks$': '<rootDir>/src/hooks',
     '^@store$': '<rootDir>/src/store',
@@ -38,5 +38,8 @@ export default {
     '^@utils$': '<rootDir>/src/utils',
     '^@providers$': '<rootDir>/src/providers',
     '^@pages$': '<rootDir>/src/pages',
+    '^@/constants$': '<rootDir>/src/constants',
+    '^@public/(.*)$': '<rootDir>/public/$1',
+    '^@/(.*)$': '<rootDir>/src/$1',
   },
 }
