@@ -32,7 +32,7 @@ Este boilerplate oferece uma base sólida para o desenvolvimento de aplicações
 
 ## Scripts
 
-- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run start:dev`: Inicia o servidor de desenvolvimento.
 - `npm run build`: Compila o projeto para produção.
 - `npm run lint`: Faz a verificação de código com ESLint.
 - `npm run preview`: Visualiza a versão de produção.
