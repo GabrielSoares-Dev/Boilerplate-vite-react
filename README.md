@@ -34,7 +34,8 @@ Este boilerplate oferece uma base sólida para o desenvolvimento de aplicações
 
 - `npm run start:dev`: Inicia o servidor de desenvolvimento.
 - `npm run build`: Compila o projeto para produção.
-- `npm run lint`: Faz a verificação de código com ESLint.
+- `npm run lint:test`: Faz a verificação de código com ESLint.
+- `npm run lint:fix`: Corrige a formatação para o padrão do lint.
 - `npm run preview`: Visualiza a versão de produção.
 - `npm run typecheck`: Executa a verificação de tipos do TypeScript.
 - `npm test`: Executa os testes Jest.
